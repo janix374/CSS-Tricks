@@ -1,0 +1,29 @@
+
+.App{
+color: aliceblue;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.item2{
+    display: flex;
+    color: black;
+    background-color: #ffffff;
+}
+
+.main{
+    flex: 3
+}
+
+.navigation{
+    flex: 1;
+}
+
+
+
