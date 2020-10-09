@@ -1,0 +1,13 @@
+.pselection{
+    height: 50vh;
+}
+
+.pselection > p::selection {
+    background-color: rgb(211, 89, 89);
+    color: white;
+}
+
+.pselection > p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}

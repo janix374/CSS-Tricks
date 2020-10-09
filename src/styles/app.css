@@ -1,24 +1,35 @@
 
 .App{
 color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-container {
     display: grid;
     grid-template-rows: 1fr auto 1fr;
     grid-gap: 10px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.item1{
+    padding: 1rem 0;
+}
+
+.item1 > h1 {
+    border-bottom: 1px solid rgb(161, 119, 41);
 }
 
 .item2{
     display: flex;
     color: black;
-    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .main{
     padding: 1%;
-    flex: 3
+    flex: 3;
+    background-color: #ffffff;
+
 }
 
 .navigation{
@@ -26,5 +37,31 @@ color: aliceblue;
     flex: 1;
 }
 
+.navigation > ul {
+    list-style-type: "→";
+    list-style-position: outside;
+    list-style-image: none;
+    font-family:
+    
+}
+
+.navigation > ul > li {
+    font-size: 18px;
+    padding-left: 6px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.navigation > ul > li > a{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.main{
+    border-radius: 10px;
+}
 
 

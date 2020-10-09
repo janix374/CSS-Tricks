@@ -1,10 +1,9 @@
 
 .pointerevents {
-    height: 300px;
-    width: 50%;
-    margin: 5rem auto;
-   justify-content: center;
-   align-items: center;
+    height: 50vh;
+    line-height: 50vh;
+   margin: 0 auto;
+   text-align: center;
 }
 
 .pointerevents > button {
@@ -17,13 +16,11 @@
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:19px;
-	padding:12px 37px;
+    font-size:20px;
+    padding: 2rem 4rem;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
-   padding:2rem 5rem;
-   border-radius: 30%;
-   animation: fadebutton 5s ease-out forwards;
+   animation: fadebutton 3s ease-out forwards;
 }
 
 @keyframes fadebutton{

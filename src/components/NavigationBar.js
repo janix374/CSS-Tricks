@@ -8,6 +8,21 @@ const NavigationBar = () => {
             <li>
                 <Link to='/style1'>Pointer-events</Link>
             </li>
+            <li>
+                <Link to='/style2'>Center text</Link>
+            </li>
+            <li>
+                <Link to='/style3'>Selected text</Link>
+            </li>
+            <li>
+                <Link to='/style4'>Invert color</Link>
+            </li>
+            <li>
+                <Link to='/style5'>Text Gradient</Link>
+            </li>
+            <li>
+                <Link to='/style6'>Image color effect</Link>
+            </li>
         </ul>
     )
     

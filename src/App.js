@@ -12,33 +12,25 @@ function App() {
   return (
 
     <div className="App">
+      <div className="grid-container">
 
-    <div className="grid-container">
+        <div className="item1"><h1>CSS - TRICKS</h1></div>
 
-      <div className="item1"><p>header</p></div>
-
-      <div className="item2">
-
-      <Router>
-        <div className="main">
-          <MainComponent />
+        <div className="item2">
+        <Router>
+          <div className="main">
+            <MainComponent />
+          </div>
+          <div className="navigation">
+            <NavigationBar/>
+          </div>
+          </Router>
         </div>
 
-        <div className="navigation">
-          <NavigationBar/>
-        </div>
-
-        </Router>
-
+        <div className="item3"><p>footer </p></div>
+        
       </div>
-
-      <div className="item3">Footer</div>
-
-    </div>
-      
-
     </div>
   );
 }
-
 export default App;

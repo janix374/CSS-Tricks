@@ -1,0 +1,10 @@
+.imagecolorefect{
+    background-image: url('../city-1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgb(64, 165, 64);
+    background-blend-mode: screen;
+    height: 50vh;
+}
