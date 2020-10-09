@@ -3,7 +3,6 @@
 color: aliceblue;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-rows: 1fr auto 1fr;
@@ -18,10 +17,12 @@ color: aliceblue;
 }
 
 .main{
+    padding: 1%;
     flex: 3
 }
 
 .navigation{
+    padding: 1%;
     flex: 1;
 }
 
