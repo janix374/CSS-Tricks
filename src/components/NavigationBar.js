@@ -23,6 +23,12 @@ const NavigationBar = () => {
             <li>
                 <Link to='/style6'>Image color effect</Link>
             </li>
+            <li>
+                <Link to='/style7'>Cliping</Link>
+            </li>
+            <li>
+                <Link to='/style8'>Mask Image</Link>
+            </li>
         </ul>
     )
     

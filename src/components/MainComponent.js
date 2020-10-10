@@ -10,6 +10,8 @@ import Pselection from './UsefulThings/Pselection';
 import InvertColor from './UsefulThings/InvertColor';
 import TextGradient from './UsefulThings/TextGradient';
 import ImageColorEfect from './UsefulThings/ImageColorEfect';
+import Cliping from './UsefulThings/Cliping';
+import MaskImage from './UsefulThings/MaskImage';
 
 const MainComponent = () => {
     return (
@@ -22,6 +24,8 @@ const MainComponent = () => {
                 <Route exact path="/style4" component={InvertColor} />
                 <Route exact path="/style5" component={TextGradient} />
                 <Route exact path="/style6" component={ImageColorEfect} />
+                <Route exact path="/style7" component={Cliping} />
+                <Route exact path="/style8" component={MaskImage} />
             </Switch>
         </div>
     )  
