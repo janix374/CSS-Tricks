@@ -6,9 +6,7 @@ const ImageColorEfect = () => {
         <div>
             <p>Image color effect</p> 
 
-            <div className="imagecolorefect">
-            
-            </div>
+            <div className="imagecolorefect"></div>
 
         </div>
     )

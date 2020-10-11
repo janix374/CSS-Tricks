@@ -1,5 +1,5 @@
 .pselection{
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .pselection > p::selection {

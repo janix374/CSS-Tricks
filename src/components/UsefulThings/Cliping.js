@@ -6,9 +6,7 @@ const Cliping = () => {
         <div>
             <p>Cliping, clip-path: polygon... go to site https://bennettfeely.com/clippy/</p> 
 
-            <div className='cliping'>
-              
-            </div>
+            <div className='cliping'></div>
 
         </div>
     )

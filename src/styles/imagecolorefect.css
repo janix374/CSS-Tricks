@@ -6,5 +6,5 @@
     background-size: cover;
     background-color: rgb(64, 165, 64);
     background-blend-mode: screen;
-    height: 50vh;
+    min-height: 50vh;
 }

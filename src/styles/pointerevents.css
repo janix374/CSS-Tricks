@@ -1,6 +1,6 @@
 
 .pointerevents {
-    height: 50vh;
+    min-height: 50vh;
     line-height: 50vh;
    margin: 0 auto;
    text-align: center;

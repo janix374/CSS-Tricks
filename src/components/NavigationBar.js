@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
-    
     return (
         <ul>
             <li>
@@ -28,6 +27,9 @@ const NavigationBar = () => {
             </li>
             <li>
                 <Link to='/style8'>Mask Image</Link>
+            </li>
+            <li>
+                <Link to='/style9'>Story Books</Link>
             </li>
         </ul>
     )

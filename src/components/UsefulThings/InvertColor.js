@@ -14,5 +14,4 @@ const InvertColor = () => {
         </div>
     )
 }
-
 export default InvertColor;

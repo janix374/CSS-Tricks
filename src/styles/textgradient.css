@@ -4,5 +4,5 @@
   background: linear-gradient(to left, rgb(71, 59, 177), rgb(167, 130, 162));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
-  height: 50vh;
+  min-height: 50vh;
 }

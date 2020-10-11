@@ -7,7 +7,7 @@ const CenterText = () => {
             <p>Line-height to center text in the middle of div</p> 
 
             <div className='centertext'>
-               <div> </div>
+               <div><p>centar text</p> </div>
             </div>
 
         </div>

@@ -1,0 +1,15 @@
+.storybooks {
+    min-height: 50vh;
+    width: 60%;
+    margin: auto;
+    font-size: 1rem;
+    font-family: 'Cormorant Infant', serif;
+}
+
+.p-storybooks::first-letter{
+    font-size: 100px;
+    display: block;
+    float: left;
+    line-height: 0.5;
+    margin: 15px 15px 10px 0;
+}

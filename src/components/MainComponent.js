@@ -12,6 +12,7 @@ import TextGradient from './UsefulThings/TextGradient';
 import ImageColorEfect from './UsefulThings/ImageColorEfect';
 import Cliping from './UsefulThings/Cliping';
 import MaskImage from './UsefulThings/MaskImage';
+import StoryBooks from './UsefulThings/StoryBooks';
 
 const MainComponent = () => {
     return (
@@ -26,8 +27,10 @@ const MainComponent = () => {
                 <Route exact path="/style6" component={ImageColorEfect} />
                 <Route exact path="/style7" component={Cliping} />
                 <Route exact path="/style8" component={MaskImage} />
+                <Route exact path="/style9" component={StoryBooks} />
             </Switch>
         </div>
     )  
 }
+
 export default MainComponent;
