@@ -2,16 +2,10 @@ import React from 'react';
 import MainComponent from './components/MainComponent';
 import NavigationBar from './components/NavigationBar';
 import './styles/app.css';
-
 import { BrowserRouter as Router } from 'react-router-dom';
-
-
-
-
 
 function App() {
   return (
-
     <div className="App">
       <div className="grid-container">
 
@@ -34,4 +28,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

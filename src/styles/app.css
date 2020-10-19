@@ -64,4 +64,15 @@ font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
 }
 
+.code{
+    width: 100;
+    margin: 20px 0;
+    padding: 0;
+    height: auto;
+}
+
+.code > p{
+    text-align: center;
+}
+
 
