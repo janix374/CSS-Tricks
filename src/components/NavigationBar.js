@@ -1,39 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import data from '../db/db_componens';
 
 const NavigationBar = () => {
     return (
         <ul>
-            <li>
-                <Link to='/style1'>Pointer-events</Link>
-            </li>
-            <li>
-                <Link to='/style2'>Center text</Link>
-            </li>
-            <li>
-                <Link to='/style3'>Selected text</Link>
-            </li>
-            <li>
-                <Link to='/style4'>Invert color</Link>
-            </li>
-            <li>
-                <Link to='/style5'>Text Gradient</Link>
-            </li>
-            <li>
-                <Link to='/style6'>Image color effect</Link>
-            </li>
-            <li>
-                <Link to='/style7'>Cliping</Link>
-            </li>
-            <li>
-                <Link to='/style8'>Mask Image</Link>
-            </li>
-            <li>
-                <Link to='/style9'>Story Books</Link>
-            </li>
+            {data.map( (comp) => {
+                return (<li key={comp.path}><Link to={"/"+comp.path}>{comp.componentNav}</Link></li>)
+            })}
         </ul>
     )
-    
 }
 
 export default NavigationBar;
