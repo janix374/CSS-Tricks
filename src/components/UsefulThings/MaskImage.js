@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/maskimage.css';
 import city from '../../city-1.jpg';
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import SyntaxHiglighterContainer from './../SyntaxHiglighterContainer';
 
 const MaskImage = () => {
 
@@ -34,16 +34,7 @@ const MaskImage = () => {
               <img src={city} alt='city'/>
             </div>
 
-            <div className="code">
-                <p>CSS and HTML</p>
-                <SyntaxHighlighter language="css" >
-                    {codeStringCss}
-                </SyntaxHighlighter> 
-                
-                <SyntaxHighlighter language="html" >
-                    {codeStringHtml}
-                </SyntaxHighlighter> 
-            </div>  
+            <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/>  
 
         </div>
     )

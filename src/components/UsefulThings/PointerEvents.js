@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/pointerevents.css';
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import SyntaxHiglighterContainer from './../SyntaxHiglighterContainer';
 
 const PointerEvents = () => {
 
@@ -56,16 +56,7 @@ const PointerEvents = () => {
                 <button>Submit</button>
             </div>
 
-            <div className="code">
-                <p>CSS and HTML</p>
-                <SyntaxHighlighter language="css" >
-                    {codeStringCss}
-                </SyntaxHighlighter> 
-                
-                <SyntaxHighlighter language="html" >
-                    {codeStringHtml}
-                </SyntaxHighlighter> 
-            </div>  
+            <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/>  
 
         </div>
     )

@@ -22,7 +22,7 @@ function App() {
           </Router>
         </div>
 
-        <div className="item3"><p>footer </p></div>
+        <div className="item3"><p> </p></div>
         
       </div>
     </div>

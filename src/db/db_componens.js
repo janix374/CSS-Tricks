@@ -7,6 +7,7 @@ import ImageColorEfect from '../components/UsefulThings/ImageColorEfect';
 import Cliping from '../components/UsefulThings/Cliping';
 import MaskImage from '../components/UsefulThings/MaskImage';
 import StoryBooks from '../components/UsefulThings/StoryBooks';
+import Cup from '../components/UsefulThings/Cup';
 
 export default [
 {
@@ -53,6 +54,11 @@ export default [
     path: 'style9',
     component: StoryBooks,
     componentNav: 'Story Books'
+},
+{
+    path: 'style10',
+    component: Cup,
+    componentNav: 'Cup'
 }
 
 

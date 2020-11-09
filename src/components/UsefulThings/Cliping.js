@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/cliping.css';
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import SyntaxHiglighterContainer from './../SyntaxHiglighterContainer';
 
 const Cliping = () => {
 
@@ -24,16 +24,7 @@ const Cliping = () => {
 
             <div className='cliping'></div>
 
-            <div className="code">
-                <p>CSS and HTML</p>
-                <SyntaxHighlighter language="css" >
-                    {codeStringCss}
-                </SyntaxHighlighter> 
-                
-                <SyntaxHighlighter language="html" >
-                    {codeStringHtml}
-                </SyntaxHighlighter> 
-            </div>  
+            <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/> 
 
         </div>
     )

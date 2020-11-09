@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/invertcolor.css';
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import SyntaxHiglighterContainer from './../SyntaxHiglighterContainer';
 
 const InvertColor = () => {
 
@@ -29,16 +29,7 @@ const InvertColor = () => {
                <p>color: black;</p>
             </div>
 
-            <div className="code">
-                <p>CSS and HTML</p>
-                <SyntaxHighlighter language="css" >
-                    {codeStringCss}
-                </SyntaxHighlighter> 
-                
-                <SyntaxHighlighter language="html" >
-                    {codeStringHtml}
-                </SyntaxHighlighter> 
-            </div>  
+            <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/> >  
 
         </div>
     )

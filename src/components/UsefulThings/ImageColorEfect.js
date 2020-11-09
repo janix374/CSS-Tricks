@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/imagecolorefect.css';
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import SyntaxHiglighterContainer from './../SyntaxHiglighterContainer';
 
 const ImageColorEfect = () => {
 
@@ -27,16 +27,7 @@ const ImageColorEfect = () => {
 
             <div className="imagecolorefect"></div>
 
-            <div className="code">
-                <p>CSS and HTML</p>
-                <SyntaxHighlighter language="css" >
-                    {codeStringCss}
-                </SyntaxHighlighter> 
-                
-                <SyntaxHighlighter language="html" >
-                    {codeStringHtml}
-                </SyntaxHighlighter> 
-            </div>  
+            <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/> 
 
         </div>
     )
