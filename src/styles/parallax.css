@@ -1,0 +1,34 @@
+.parallax {
+    background-color: hsl(160, 100%, 75%);
+    width: 100%;
+    height: 3500px;
+    position: relative;
+    margin-bottom: 500px;
+}
+
+.image1{
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    z-index: 10;
+    background-image: url('../city-1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+.box{
+    background-color: #d2691e;
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    bottom: 15px;
+    z-index: 5;
+    left: 15px;
+    box-shadow: 12px -12px 2px 1px rgb(91, 223, 179);
+    ;
+}

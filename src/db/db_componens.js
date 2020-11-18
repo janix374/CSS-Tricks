@@ -8,12 +8,15 @@ import Cliping from '../components/UsefulThings/Cliping';
 import MaskImage from '../components/UsefulThings/MaskImage';
 import StoryBooks from '../components/UsefulThings/StoryBooks';
 import Cup from '../components/UsefulThings/Cup';
+import Parallex from '../components/UsefulThings/Parallax';
+import Parallax from '../components/UsefulThings/Parallax';
+
 
 export default [
 {
     path: 'style1',
-    component: PointerEvents,
-    componentNav: 'Pointer-events'
+    component: Parallax,
+    componentNav: 'Parallax'
 },
 {
     path: 'style2',
@@ -59,6 +62,11 @@ export default [
     path: 'style10',
     component: Cup,
     componentNav: 'Cup'
+},
+{
+    path: 'style11',
+    component: PointerEvents,
+    componentNav: 'Pointer-events'
 }
 
 
