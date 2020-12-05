@@ -6,17 +6,17 @@ const InvertColor = () => {
 
     let codeStringCss =`
     .invertcolor {
-        background-color: lightblue;
+        background-color: black;
         filter: invert(1) hue-rotate(180deg);
         min-height: 50vh;
-        color: black;
+        color: white;
     }
     `;
 
     let codeStringHtml =`
     <div className='invertcolor'>
-        <p>background-color: lightblue;</p>
-        <p>color: black;</p>
+        <p>background-color: black;</p>
+        <p>color: white;</p>
     </div>
     `;
 
@@ -25,12 +25,10 @@ const InvertColor = () => {
             <p>Invert the colors on the screen</p> 
 
             <div className='invertcolor'>
-               <p>background-color: lightblue;</p>
-               <p>color: black;</p>
+               <p>background-color: black;</p>
+               <p>color: white;</p>
             </div>
-
             <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/> >  
-
         </div>
     )
 }

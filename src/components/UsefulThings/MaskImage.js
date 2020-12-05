@@ -7,7 +7,6 @@ const MaskImage = () => {
 
     let codeStringCss =`
     .maskimage {
-        background-color: black;
         min-height: 50vh;
     }
     
@@ -17,6 +16,7 @@ const MaskImage = () => {
             display: block;
             mask-image: url('../mask.png');
             -webkit-mask-image: url('../mask.png');
+            mask-position: center;
     }
     `;
 
@@ -28,14 +28,11 @@ const MaskImage = () => {
 
     return (
         <div>
-            <p>Mask image</p> 
-
+            <p>The mask CSS shorthand property hides an element (partially or fully) by masking or clipping the image at specific points</p> 
             <div className='maskimage'>
               <img src={city} alt='city'/>
             </div>
-
             <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/>  
-
         </div>
     )
 }

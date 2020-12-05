@@ -6,7 +6,6 @@
     background-size: cover; */
      /* mask-image: url('../mask.png');
     -webkit-mask-image: url('../mask.png'); */
-    background-color: black;
     min-height: 50vh;
 }
 
@@ -16,4 +15,5 @@
         display: block;
         mask-image: url('../mask.png');
         -webkit-mask-image: url('../mask.png');
+        mask-position: center;
 }

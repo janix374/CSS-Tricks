@@ -9,7 +9,8 @@ const Cliping = () => {
         width: 100%;
         min-height: 50vh;
         background-color: rgb(2, 221, 248);
-        clip-path: polygon(100% 0, 100% 52%, 38% 100%, 0 100%, 0 0);
+        lip-path: polygon(56% 0, 78% 39%, 
+            65% 87%, 8% 100%, 0% 38%);
         position: relative;
     }
     `;
@@ -20,12 +21,10 @@ const Cliping = () => {
 
     return (
         <div>
-            <p>Cliping, clip-path: polygon... go to site https://bennettfeely.com/clippy/</p> 
-
+            <p>The clip-path property allows you to make complex shapes in CSS by clipping an element to a basic shape (circle, ellipse, polygon, or inset)</p> 
+            <p>... go to site <a href="https://bennettfeely.com/clippy/">https://bennettfeely.com/clippy/</a></p>
             <div className='cliping'></div>
-
             <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/> 
-
         </div>
     )
 }

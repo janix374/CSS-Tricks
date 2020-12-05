@@ -8,7 +8,6 @@ const CenterText = () => {
     .centertext {
         width: 100%;
         height: 50vh;
-        background-color: lightblue;
         text-align: center;
         line-height: 50vh;
     }`;
@@ -22,13 +21,10 @@ const CenterText = () => {
     return (
         <div>
             <p>Line-height to center text in the middle of div</p> 
-
             <div className="centertext">
                <div><p>centar text</p> </div>
             </div>
-
             <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/>
-
         </div>
     )
 }

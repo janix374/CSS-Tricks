@@ -24,11 +24,8 @@ const ImageColorEfect = () => {
     return (
         <div>
             <p>Image color effect</p> 
-
             <div className="imagecolorefect"></div>
-
             <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/> 
-
         </div>
     )
 }

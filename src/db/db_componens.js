@@ -13,11 +13,11 @@ import Parallax from '../components/UsefulThings/Parallax';
 
 
 export default [
-{
-    path: 'style1',
-    component: Parallax,
-    componentNav: 'Parallax'
-},
+// {
+//     path: 'style1',
+//     component: Parallax,
+//     componentNav: 'Parallax'
+// },
 {
     path: 'style2',
     component: CenterText,
@@ -58,11 +58,11 @@ export default [
     component: StoryBooks,
     componentNav: 'Story Books'
 },
-{
-    path: 'style10',
-    component: Cup,
-    componentNav: 'Cup'
-},
+// {
+//     path: 'style10',
+//     component: Cup,
+//     componentNav: 'Cup'
+// },
 {
     path: 'style11',
     component: PointerEvents,

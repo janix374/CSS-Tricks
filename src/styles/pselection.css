@@ -1,5 +1,6 @@
 .pselection{
     min-height: 50vh;
+    width: 80%;
 }
 
 .pselection > p::selection {

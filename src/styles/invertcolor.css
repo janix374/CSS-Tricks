@@ -1,6 +1,6 @@
 .invertcolor{
-    background-color: lightblue;
+    background-color: black;
     filter: invert(1) hue-rotate(180deg);
     min-height: 50vh;
-    color: black;
+    color: white;
 }

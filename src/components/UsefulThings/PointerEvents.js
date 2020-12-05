@@ -14,7 +14,8 @@ const PointerEvents = () => {
     
     .pointerevents > button {
         box-shadow: 0px 0px 0px 2px #9fb4f2;
-        background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+        background:linear-gradient(to bottom, 
+            #7892c2 5%, #476e9e 100%);
         background-color:#7892c2;
         border-radius:10px;
         border:1px solid #4e6096;
@@ -51,13 +52,10 @@ const PointerEvents = () => {
         <div>
             <p>Pointer event: all. When the animation is complete, the button is not clickable anymore. </p> 
             <button onClick={()=>{window.location.reload()}}>Animation</button>
-
             <div className='pointerevents'>
                 <button>Submit</button>
             </div>
-
             <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/>  
-
         </div>
     )
 }

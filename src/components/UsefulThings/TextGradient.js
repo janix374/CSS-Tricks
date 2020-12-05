@@ -8,7 +8,8 @@ const TextGradient = () => {
     .textgradient {
         font-size: 100px; 
         font-weight: bold;
-        background: linear-gradient(to left, rgb(71, 59, 177), rgb(167, 130, 162));
+        background: linear-gradient(to left, 
+            rgb(71, 59, 177), rgb(167, 130, 162));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; 
         min-height: 50vh;
@@ -23,14 +24,11 @@ const TextGradient = () => {
 
     return (
         <div>
-            <p>Text Gradient</p> 
-
+            <p>CSS Gradient Text</p> 
             <div className='textgradient'>
                <p>Some text</p>
             </div>
-
             <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/>    
-
         </div>
     )
 }
