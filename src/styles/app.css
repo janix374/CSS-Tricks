@@ -46,6 +46,12 @@ font-family: Arial, Helvetica, sans-serif;
    float: right;
 }
 
+.navigation-menu-button > button {
+    color: rgb(161, 119, 41);
+    font-size: 20px;
+    background-color: #ffffff;
+ }
+
 .navigation > ul {
     list-style-type: "→";
     list-style-position: outside;
@@ -70,6 +76,12 @@ font-family: Arial, Helvetica, sans-serif;
 
 .navigation > ul > li > a:hover {
    font-weight: normal;
+   background-color: #ffffff;
+}
+
+.active {
+    font-weight: normal !important;
+    background-color: #ffffff;
 }
 
 .code {
@@ -84,6 +96,7 @@ font-family: Arial, Helvetica, sans-serif;
     color: rgb(161, 119, 41);
     font-weight: bold;
 }
+
 
 /*media query*/
 @media only screen and (max-width: 768px) {

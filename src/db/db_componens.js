@@ -7,9 +7,8 @@ import ImageColorEfect from '../components/UsefulThings/ImageColorEfect';
 import Cliping from '../components/UsefulThings/Cliping';
 import MaskImage from '../components/UsefulThings/MaskImage';
 import StoryBooks from '../components/UsefulThings/StoryBooks';
-import Cup from '../components/UsefulThings/Cup';
+import Sticky from '../components/UsefulThings/Sticky';
 import Parallex from '../components/UsefulThings/Parallax';
-import Parallax from '../components/UsefulThings/Parallax';
 
 
 export default [
@@ -58,11 +57,11 @@ export default [
     component: StoryBooks,
     componentNav: 'Story Books'
 },
-// {
-//     path: 'style10',
-//     component: Cup,
-//     componentNav: 'Cup'
-// },
+{
+    path: 'style10',
+    component: Sticky,
+    componentNav: 'Sticky'
+},
 {
     path: 'style11',
     component: PointerEvents,

@@ -1,0 +1,20 @@
+.sticky {
+    min-height: 50vh;
+    width: 60%;
+    margin: auto;
+    font-size: 1rem;
+    font-family: 'Cormorant Infant', serif;
+}
+
+.sticky-element {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    line-height: 5rem;
+    height: 5rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: rgb(161, 119, 41); 
+}

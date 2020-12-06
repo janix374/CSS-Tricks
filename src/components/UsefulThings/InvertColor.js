@@ -23,12 +23,11 @@ const InvertColor = () => {
     return (
         <div>
             <p>Invert the colors on the screen</p> 
-
             <div className='invertcolor'>
                <p>background-color: black;</p>
                <p>color: white;</p>
             </div>
-            <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/> >  
+            <SyntaxHiglighterContainer codeStringCss={codeStringCss} codeStringHtml={codeStringHtml}/>
         </div>
     )
 }
